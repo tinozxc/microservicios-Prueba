@@ -1,3 +1,6 @@
 server:
   port: 8003
-
+eureka:
+  client:
+    fetchRegistry: true
+    register-with-eureka: true
