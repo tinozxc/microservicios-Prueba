@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.usuario.service.modelos.MotoRequest;
 import com.usuario.service.modelos.MotoResponse;
 
-@FeignClient(name = "moto-service" , url = "http://localhost:8003" , path = "/moto")
+@FeignClient(name = "moto-service"  , path = "/moto")
 public interface MotoFeignClient {
 	
 	
